@@ -1445,7 +1445,7 @@ button[aria-label]::before {
   padding: 0.5rem 1rem;
   font-family: var(--font-family-accent);
   font-size: 1.125rem;
-  color: var(--color-gray-60);
+  color: var(--color-grey-60);
   background-color: var(--color-dark-10);
   border: var(--border);
   border-radius: 6.25rem;
@@ -1466,6 +1466,7 @@ button[aria-label]::before {
   width: var(--size);
   height: var(--size);
   display: flex;
+  color: var(--color-grey-60);
 }
 @media (width <= 90.06125rem) {
   .blog-actions__icon-wrapper {
@@ -1478,6 +1479,7 @@ button[aria-label]::before {
 }
 .blog-actions__icon-wrapper svg * {
   fill: transparent;
+  stroke: currentColor;
 }
 
 .blog-card {
